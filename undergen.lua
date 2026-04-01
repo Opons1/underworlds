@@ -197,7 +197,7 @@ underworlds_mod.undergen = function(vm, minp, maxp, data, p2data, area, node, un
 				local temp = temperature[cindex] + math.random(-3, 3)
 				local pos = area:position(ivm)
 				local humid = humidity[cindex]+math.random(3, 3)
-				if y > -24610 then --24610 - 3120
+				if y > -24630 then --24610 - 3120
 					if humid < 25 then -- desert
 						if temp < -25 then -- iceworld
 							data[ivm] = node["default:ice"]
