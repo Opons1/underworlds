@@ -88,7 +88,6 @@ minetest.register_node("underworlds:glowing_fungal_stone", {
 	is_ground_content = true,
 	light_source = light_max - 4,
 	groups = {cracky = 3, stone = 1},
-	drop = {items = {{items = {"default:cobble"}}, {items = {"integral:glowing_fungus"}}}},
 	sounds = default.node_sound_stone_defaults()
 })
 
